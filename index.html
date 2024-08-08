@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>furniture</title>
+    <link rel="stylesheet" src="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        *{
+            box-sizing:border-box;
+            margin:0px;
+            padding:0px;
+        }
+        .containerm{
+            width:900px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.6;
+        }
+        
+        .container{
+            font-family: Roboto,sans-serif;
+            margin-top: 50px;
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 50px;
+        }
+        .image{
+            width:100%;
+            border-radius: 10%;
+            height:460px
+        }
+        .button{
+            margin-top: 60px;
+            width:150px;
+            height:60px;
+            border-radius: 10%;
+            background-color: bisque;
+        }
+        p{
+            margin-top:20px;
+            font-size: 16px;
+        }
+        .head{
+            font-size: 36px;
+        }
+        .button:hover{
+            cursor: pointer;
+            color:brown;
+            background-color: burlywood;
+            box-shadow: 0px 2px 4px gray;
+        }
+        .second{
+            font-family: Roboto,sans-serif;
+            margin-top: 50px;
+            
+        }
+        .div{
+            display:flex;
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 50px;
+            line-height: 1.6;
+        }
+        .third{
+            font-family: Roboto,sans-serif;
+            margin-top: 50px;
+            background-color: bisque;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            column-gap: 20px;
+            border-radius: 25px;
+        }
+        .image1{
+            width: 250px;
+            height:250px;
+            padding: 15px 15px;
+            border-radius: 20px;
+
+        }
+        .para1{
+            padding: 15px 15px;
+        }
+        .svg-2{
+            stroke: green;
+            margin-top:20px ;
+            width:35px;
+            height:25px;
+            margin-bottom: 20px;
+        }
+        .size-6{
+            stroke:green
+        }
+        .bold{
+            margin-top: 20px;
+            font-weight: 600;
+            font-size: 18px;
+        }
+        .para-3{
+            font-family: sans-serif;
+        }
+        .text3{
+            font-weight: 500;
+            font-weight: 30px;
+        }
+        .text33{
+            font-size: 26px;
+            font-weight: 500;
+        }
+        .sechead{
+            font-size:"32px;
+            font-weight 600;
+            margin-bottom:20px;
+        }
+        .grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 5%;
+        }
+        .cardsvg{
+            width:40px;
+            height:40px;
+            margin-right:20px;
+
+        }
+        .cardcontainer{
+            background-color: beige;
+            border-radius: 20px;
+        }
+        .cardhead{
+            margin-top: 5%;
+            padding: 5%;
+        }
+        .cardfeat{
+            display:flex;
+            margin-bottom:15px;
+        }
+        .cardimage{
+            width:100%;
+            border-radius: 20px 20px 0px 0px;
+            margin-bottom: 30px;
+        }
+        .cardpricecont{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .cardprice{
+            font-weight: 600;
+            font-size:20px;
+            padding: 15px;
+        }
+        .cardbutton{
+            background-color: brown;
+            padding: 15px 20px;
+            border-radius: 25px;
+            cursor: pointer;
+            color: aliceblue;
+            margin-left: 15px;
+        }
+        .cardbutton:hover{
+            background-color: none;
+            border-style: solid;
+            border-color: brown 5px;
+
+        }
+        .cardfeattext{
+            justify-self: center;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="containerm">
+    <header class="container">
+        <section>
+            <article class="section1">
+                <h1 class="head">We design and built better designs,for a better life</h1>
+                <p class="para">Furniture can be a product of design and 
+                can be considered a form of decorative art. 
+                In addition to furniture's functional role, 
+                it can serve a symbolic or religious purpose. 
+                It can be made from a vast multitude of materials, 
+                including metal, plastic, and wood.</p>
+                <button class="button">Shop here</button>
+            </article>
+        </section>
+    <img class="image" src="image2.jpg">
+    </header>
+    <section class="second">
+        <h2>What makes our chairs special</h2>
+        <div class="div">
+            <article>
+                <div class="svgart">
+                    <section class="svg-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 7.5h-.75A2.25 2.25 0 0 0 4.5 9.75v7.5a2.25 2.25 0 0 0 2.25 2.25h7.5a2.25 2.25 0 0 0 2.25-2.25v-7.5a2.25 2.25 0 0 0-2.25-2.25h-.75m0-3-3-3m0 0-3 3m3-3v11.25m6-2.25h.75a2.25 2.25 0 0 1 2.25 2.25v7.5a2.25 2.25 0 0 1-2.25 2.25h-7.5a2.25 2.25 0 0 1-2.25-2.25v-.75" />
+                          </svg>  
+                    </section>
+                </div>
+                <b class="bold">Science Meets designs</b>
+                <p class="para-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Illum id obcaecati totam. Nesciunt, rerum nemo atque excepturi 
+                     doloribus nihil veniam cupiditate necessitatibus voluptates vitae autem.
+                      Quibusdam corporis nobis reprehenderit sint!</p>
+            </article>
+            <article>
+                <section class="svg-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 7.5h-.75A2.25 2.25 0 0 0 4.5 9.75v7.5a2.25 2.25 0 0 0 2.25 2.25h7.5a2.25 2.25 0 0 0 2.25-2.25v-7.5a2.25 2.25 0 0 0-2.25-2.25h-.75m0-3-3-3m0 0-3 3m3-3v11.25m6-2.25h.75a2.25 2.25 0 0 1 2.25 2.25v7.5a2.25 2.25 0 0 1-2.25 2.25h-7.5a2.25 2.25 0 0 1-2.25-2.25v-.75" />
+                      </svg>
+                      
+                </section>
+                <b class="bold">Science Meets designs</b>
+                <p class="para-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Illum id obcaecati totam. Nesciunt, rerum nemo atque excepturi 
+                     doloribus nihil veniam cupiditate necessitatibus voluptates vitae autem.
+                      Quibusdam corporis nobis reprehenderit sint!</p>
+            </article>
+            <article>
+                <section class="svg-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 7.5h-.75A2.25 2.25 0 0 0 4.5 9.75v7.5a2.25 2.25 0 0 0 2.25 2.25h7.5a2.25 2.25 0 0 0 2.25-2.25v-7.5a2.25 2.25 0 0 0-2.25-2.25h-.75m0-3-3-3m0 0-3 3m3-3v11.25m6-2.25h.75a2.25 2.25 0 0 1 2.25 2.25v7.5a2.25 2.25 0 0 1-2.25 2.25h-7.5a2.25 2.25 0 0 1-2.25-2.25v-.75" />
+                      </svg>  
+                </section>
+                <b class="bold">Science Meets designs</b>
+                <p class="para-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Illum id obcaecati totam. Nesciunt, rerum nemo atque excepturi 
+                     doloribus nihil veniam cupiditate necessitatibus voluptates vitae autem.
+                      Quibusdam corporis nobis reprehenderit sint!</p>
+            </article>
+        </div>  
+    </section>
+    <footer class="third">
+        <article>
+            <img class="image1" src="image2.jpg">
+        </article>
+        <div class="para1">
+            <h2>"We could'nt Live without these chairs"<h2/>
+            <p class="text3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aut quaerat, nulla debitis deserunt, 
+                consequuntur quas at, libero sunt itaque neque 
+                non veritatis necessitatibus hic ipsa soluta inventore numquam dolorem!</p>
+            <p class="text33">_Mary and Sarah Johnson</p>
+        </div>
+    </footer>
+    <section class="four">
+        <p class="sechead"><b>What makes our chairs special</b></p>
+        <div class="grid">
+            <div class="cardcontainer">
+                <img src="image2.jpg" class="cardimage">
+                <div class="cardtext">
+                    <p class="cardhead">The laid back</p>
+                    <div class="cardfeat">
+                        <div class="cardsvg">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 7.5h-.75A2.25 2.25 0 0 0 4.5 9.75v7.5a2.25 2.25 0 0 0 2.25 2.25h7.5a2.25 2.25 0 0 0 2.25-2.25v-7.5a2.25 2.25 0 0 0-2.25-2.25h-.75m0-3-3-3m0 0-3 3m3-3v11.25m6-2.25h.75a2.25 2.25 0 0 1 2.25 2.25v7.5a2.25 2.25 0 0 1-2.25 2.25h-7.5a2.25 2.25 0 0 1-2.25-2.25v-.75" />
+                              </svg>
+                        </div>
+                        <p class="cardfeattext">Leisure and Relaxing</p>
+                    </div>
+                    <div class="cardfeat">
+                        <div class="cardsvg">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 7.5h-.75A2.25 2.25 0 0 0 4.5 9.75v7.5a2.25 2.25 0 0 0 2.25 2.25h7.5a2.25 2.25 0 0 0 2.25-2.25v-7.5a2.25 2.25 0 0 0-2.25-2.25h-.75m0-3-3-3m0 0-3 3m3-3v11.25m6-2.25h.75a2.25 2.25 0 0 1 2.25 2.25v7.5a2.25 2.25 0 0 1-2.25 2.25h-7.5a2.25 2.25 0 0 1-2.25-2.25v-.75" />
+                              </svg>
+                        </div>
+                        <p class="cardfeattext">Comfort</p>
+                    </div>
+                    <div class="cardfeat">
+                        <div class="cardsvg">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 7.5h-.75A2.25 2.25 0 0 0 4.5 9.75v7.5a2.25 2.25 0 0 0 2.25 2.25h7.5a2.25 2.25 0 0 0 2.25-2.25v-7.5a2.25 2.25 0 0 0-2.25-2.25h-.75m0-3-3-3m0 0-3 3m3-3v11.25m6-2.25h.75a2.25 2.25 0 0 1 2.25 2.25v7.5a2.25 2.25 0 0 1-2.25 2.25h-7.5a2.25 2.25 0 0 1-2.25-2.25v-.75" />
+                              </svg>
+                        </div>
+                        <p class="cardfeattext">Light Weight</p>
+                    </div>
+                    <div class="cardfeat">
+                        <div class="cardsvg">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 7.5h-.75A2.25 2.25 0 0 0 4.5 9.75v7.5a2.25 2.25 0 0 0 2.25 2.25h7.5a2.25 2.25 0 0 0 2.25-2.25v-7.5a2.25 2.25 0 0 0-2.25-2.25h-.75m0-3-3-3m0 0-3 3m3-3v11.25m6-2.25h.75a2.25 2.25 0 0 1 2.25 2.25v7.5a2.25 2.25 0 0 1-2.25 2.25h-7.5a2.25 2.25 0 0 1-2.25-2.25v-.75" />
+                              </svg>
+                        </div>
+                        <p class="cardfeattext">Comfort Tools</p>
+                    </div>
+                    <div class="cardpricecont">
+                        <p class="cardprice">250$</p>
+                        <div class="cardbutton">ADD TO CART</div>
+                    </div>
+                </div>
+            </div>
+            <div class="cardcontainer">
+                <img src="image2.jpg" class="cardimage">
+                <div class="cardtext">
+                    <p class="cardhead">The laid back</p>
+                    <div class="cardfeat">
+                        <div class="cardsvg">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 7.5h-.75A2.25 2.25 0 0 0 4.5 9.75v7.5a2.25 2.25 0 0 0 2.25 2.25h7.5a2.25 2.25 0 0 0 2.25-2.25v-7.5a2.25 2.25 0 0 0-2.25-2.25h-.75m0-3-3-3m0 0-3 3m3-3v11.25m6-2.25h.75a2.25 2.25 0 0 1 2.25 2.25v7.5a2.25 2.25 0 0 1-2.25 2.25h-7.5a2.25 2.25 0 0 1-2.25-2.25v-.75" />
+                              </svg>
+                        </div>
+                        <p class="cardfeattext">Leisure and Relaxing</p>
+                    </div>
+                    <div class="cardfeat">
+                        <div class="cardsvg">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 7.5h-.75A2.25 2.25 0 0 0 4.5 9.75v7.5a2.25 2.25 0 0 0 2.25 2.25h7.5a2.25 2.25 0 0 0 2.25-2.25v-7.5a2.25 2.25 0 0 0-2.25-2.25h-.75m0-3-3-3m0 0-3 3m3-3v11.25m6-2.25h.75a2.25 2.25 0 0 1 2.25 2.25v7.5a2.25 2.25 0 0 1-2.25 2.25h-7.5a2.25 2.25 0 0 1-2.25-2.25v-.75" />
+                              </svg>
+                        </div>
+                        <p class="cardfeattext">Leisure and Relaxing</p>
+                    </div>
+                    <div class="cardfeat">
+                        <div class="cardsvg">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 7.5h-.75A2.25 2.25 0 0 0 4.5 9.75v7.5a2.25 2.25 0 0 0 2.25 2.25h7.5a2.25 2.25 0 0 0 2.25-2.25v-7.5a2.25 2.25 0 0 0-2.25-2.25h-.75m0-3-3-3m0 0-3 3m3-3v11.25m6-2.25h.75a2.25 2.25 0 0 1 2.25 2.25v7.5a2.25 2.25 0 0 1-2.25 2.25h-7.5a2.25 2.25 0 0 1-2.25-2.25v-.75" />
+                              </svg>
+                        </div>
+                        <p class="cardfeattext">Leisure and Relaxing</p>
+                    </div>
+                    <div class="cardfeat">
+                        <div class="cardsvg">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 7.5h-.75A2.25 2.25 0 0 0 4.5 9.75v7.5a2.25 2.25 0 0 0 2.25 2.25h7.5a2.25 2.25 0 0 0 2.25-2.25v-7.5a2.25 2.25 0 0 0-2.25-2.25h-.75m0-3-3-3m0 0-3 3m3-3v11.25m6-2.25h.75a2.25 2.25 0 0 1 2.25 2.25v7.5a2.25 2.25 0 0 1-2.25 2.25h-7.5a2.25 2.25 0 0 1-2.25-2.25v-.75" />
+                              </svg>
+                        </div>
+                        <p class="cardfeattext">Leisure and Relaxing</p>
+                    </div>
+                    <div class="cardpricecont">
+                        <p class="cardprice">250$</p>
+                        <div class="cardbutton">ADD TO CART</div>
+                    </div>
+                </div>
+            </div>
+            <div class="cardcontainer">
+                <img src="image2.jpg" class="cardimage">
+                <div class="cardtext">
+                    <p class="cardhead">The laid back</p>
+                    <div class="cardfeat">
+                        <div class="cardsvg">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 7.5h-.75A2.25 2.25 0 0 0 4.5 9.75v7.5a2.25 2.25 0 0 0 2.25 2.25h7.5a2.25 2.25 0 0 0 2.25-2.25v-7.5a2.25 2.25 0 0 0-2.25-2.25h-.75m0-3-3-3m0 0-3 3m3-3v11.25m6-2.25h.75a2.25 2.25 0 0 1 2.25 2.25v7.5a2.25 2.25 0 0 1-2.25 2.25h-7.5a2.25 2.25 0 0 1-2.25-2.25v-.75" />
+                              </svg>
+                        </div>
+                        <p class="cardfeattext">Leisure and Relaxing</p>
+                    </div>
+                    <div class="cardfeat">
+                        <div class="cardsvg">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 7.5h-.75A2.25 2.25 0 0 0 4.5 9.75v7.5a2.25 2.25 0 0 0 2.25 2.25h7.5a2.25 2.25 0 0 0 2.25-2.25v-7.5a2.25 2.25 0 0 0-2.25-2.25h-.75m0-3-3-3m0 0-3 3m3-3v11.25m6-2.25h.75a2.25 2.25 0 0 1 2.25 2.25v7.5a2.25 2.25 0 0 1-2.25 2.25h-7.5a2.25 2.25 0 0 1-2.25-2.25v-.75" />
+                              </svg>
+                        </div>
+                        <p class="cardfeattext">Leisure and Relaxing</p>
+                    </div>
+                    <div class="cardfeat">
+                        <div class="cardsvg">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 7.5h-.75A2.25 2.25 0 0 0 4.5 9.75v7.5a2.25 2.25 0 0 0 2.25 2.25h7.5a2.25 2.25 0 0 0 2.25-2.25v-7.5a2.25 2.25 0 0 0-2.25-2.25h-.75m0-3-3-3m0 0-3 3m3-3v11.25m6-2.25h.75a2.25 2.25 0 0 1 2.25 2.25v7.5a2.25 2.25 0 0 1-2.25 2.25h-7.5a2.25 2.25 0 0 1-2.25-2.25v-.75" />
+                              </svg>
+                        </div>
+                        <p class="cardfeattext">Leisure and Relaxing</p>
+                    </div>
+                    <div class="cardfeat">
+                        <div class="cardsvg">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 7.5h-.75A2.25 2.25 0 0 0 4.5 9.75v7.5a2.25 2.25 0 0 0 2.25 2.25h7.5a2.25 2.25 0 0 0 2.25-2.25v-7.5a2.25 2.25 0 0 0-2.25-2.25h-.75m0-3-3-3m0 0-3 3m3-3v11.25m6-2.25h.75a2.25 2.25 0 0 1 2.25 2.25v7.5a2.25 2.25 0 0 1-2.25 2.25h-7.5a2.25 2.25 0 0 1-2.25-2.25v-.75" />
+                              </svg>
+                        </div>
+                        <p class="cardfeattext">Leisure and Relaxing</p>
+                    </div>
+                    <div class="cardpricecont">
+                        <p class="cardprice">250$</p>
+                        <div class="cardbutton">ADD TO CART</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    </header>
+</body>
+</html>
